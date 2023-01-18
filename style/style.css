@@ -1,0 +1,235 @@
+
+a{
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.container{
+    width: 1035px;
+    border: solid darkgreen;
+    border-width: 0 1px 0 1px;
+    margin: 0 auto;
+
+
+}
+.mainPageLinks{
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0, 0, 0, .1),
+    0 0 5px rgba(0, 0, 0, .1),
+    0 1px 3px rgba(0, 0, 0, .3),
+    0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .25),
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .15);
+    font-size: 2em;
+    text-align: center;
+
+
+}
+
+.mainPageDiv{
+    background-color: #f0f0f0;
+    width: 70%;
+    margin:20px auto;
+    padding: 10px;
+}
+
+.user{
+
+    background-color: lightgrey;
+    color: darkgreen;
+    padding: 5px 5px 10px 0;
+
+}
+
+.user p{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: right;
+}
+
+.danger{
+    background-color: indianred;
+    width: 50%;
+    margin: 10px auto;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #c0c0c0;
+}
+
+.contacts_form{
+    width: 350px;
+    height: 100px;
+
+    border-radius: 30px;
+    background-color: #f0f0f0;
+    /*background: linear-gradient(to top, #E4AF9D 20%, #E4E4D8 50%, #A19887 80%);*/
+    /*background: linear-gradient(to top left, powderblue, pink);*/
+    color: darkgreen;
+    /*background-color: powderblue;*/
+    padding: 10px 15px 0 15px;
+    margin: 10px auto;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.research{
+    border-collapse: collapse;
+    border-width: 1px;
+}
+
+.research td{
+    padding: 4px;
+}
+
+.interpr{
+    padding: 5px;
+    border-bottom: 1px solid;
+    border-collapse: collapse;
+}
+
+.upper_value{
+    color: #8b0000;
+    font-weight: bold;
+    border: solid 1px;
+    border-color: #8b0000;
+    border-radius:10px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px ;
+    gap: 10px;
+}
+
+.near_border_value{
+    color: #ff4500;
+    font-weight: bold;
+    border: solid 1px;
+    border-color: #ff4500;
+    border-radius:10px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px ;
+    gap: 10px;
+}
+
+.lower_value{
+    color: #00bfff;
+    font-weight: bold;
+    border: solid 1px;
+    border-color: #00bfff;
+    border-radius:10px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px ;
+    gap: 10px;
+}
+
+.norm_value{
+    color: #3cb371;
+    font-weight: bold;
+    border: solid 1px;
+    border-color: #3cb371;
+    border-radius:10px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px ;
+    gap: 10px;
+}
+
+.show_result{
+    background-color: #f1f1f1;
+    color: #134E5E;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+td{
+    border-bottom: 1px solid rgba(19, 78, 94, 0.2);
+    border-collapse: collapse;
+}
+
+td.result{
+    text-align: center;
+    padding: 5px;
+    gap: 10px;
+}
+td.big_result{
+    text-align: center;
+    padding: 5px;
+    gap: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+td.result_head{
+    border-radius: 10px;
+    background: #ffffff;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+}
+
+td.result_interpretation{
+    background: white;
+    padding: 10px 15px;
+    gap: 18px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+td.inCode{
+    width: 10%;
+}
+
+div.gname{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+div.sgname{
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+div.unitname{
+    margin-left: 60px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+td.empty {
+
+    background-color: #ffffff;
+    padding: 6px 12px 5px 12px;
+}
+
+.tlm{
+    table-layout: fixed;
+    width: 100%;
+    background-color: #f1f1f1;
+    color: #134E5E;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+td.tlm {
+    border-bottom: 1px solid rgba(19, 78, 94, 0.2);
+    border-collapse: collapse;
+    width: 20%;
+}

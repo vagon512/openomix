@@ -1,0 +1,6 @@
+/ignore/
+/include/config*
+/*test*.php
+/xml/*.xml
+/session/*
+/sql
